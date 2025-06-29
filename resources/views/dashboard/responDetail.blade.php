@@ -63,7 +63,7 @@
                                         @if($feedback)
                                             @foreach ($likertLabels as $value => $label)
                                                 @if($value == $feedback->rating)
-                                                    <b><img src="{{ asset('images/hiu/' . $label[1] . '.svg') }}" width="40px">
+                                                    <b><img src="{{ asset('images/hiu/' . $label[1] . '.png') }}" width="40px">
                                                         {{ $label[0]}}</b>, {{ $feedback->ulasan }}
                                                 @endif
                                             @endforeach

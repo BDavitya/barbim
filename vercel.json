@@ -12,7 +12,7 @@
             "dest": "/api/index.php"
         }
     ],
-    "installCommand": "composer install --no-dev",
+    "installCommand": "composer install --no-dev && rm -rf vendor/phpunit vendor/symfony/var-dumper vendor/fakerphp/faker vendor/mockery/mockery",
     "buildCommand": "php artisan optimize:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache",
     "outputDirectory": "public",
     "builds": [

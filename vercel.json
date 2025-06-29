@@ -14,11 +14,5 @@
     ],
     "installCommand": "composer install --no-dev",
     "buildCommand": "php artisan optimize:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache",
-    "outputDirectory": "public",
-    "builds": [
-        {
-            "src": "public/index.php",
-            "use": "@vercel/php"
-        }
-    ]
+    "outputDirectory": "public"
 }

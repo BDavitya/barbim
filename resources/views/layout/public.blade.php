@@ -119,7 +119,7 @@
     @if (session('success'))
         <script>
             Swal.fire({
-                html: `<img src="{{ asset('images/hiu/wink.svg') }}" alt="Hiu Calm" style="width:11rem;"><div class="fs-6" style="text-align: justify"><p><h3><b>Terima Kasih</b></h3>Untuk Anda yang ingin mengetahui kepribadian lebih dalam atau ingin mengetahui aspek-aspek psikologis lain seperti, minat bakat, tes kecocokan pasangan, tes penjurusan, dan lainnya bisa ditemukan di <img src="{{ asset('favicon.ico') }}" alt="Logo BarBim" style="width: 2rem;"><span class="fw-bold text-info-emphasis">BarBim</span>.<br>Terima kasih, semoga harimu menyenangkan!</p></div></div>`,
+                html: `<img src="{{ asset('images/hiu/wink.png') }}" alt="Hiu Calm" style="width:11rem;"><div class="fs-6" style="text-align: justify"><p><h3><b>Terima Kasih</b></h3>Untuk Anda yang ingin mengetahui kepribadian lebih dalam atau ingin mengetahui aspek-aspek psikologis lain seperti, minat bakat, tes kecocokan pasangan, tes penjurusan, dan lainnya bisa ditemukan di <img src="{{ asset('favicon.ico') }}" alt="Logo BarBim" style="width: 2rem;"><span class="fw-bold text-info-emphasis">BarBim</span>.<br>Terima kasih, semoga harimu menyenangkan!</p></div></div>`,
                 confirmButtonText: 'Terima kasih!',
                 confirmButtonColor: '#436374',
             });

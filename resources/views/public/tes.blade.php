@@ -44,7 +44,7 @@
             @endif
         </div>
         <div class="col-lg-3 text-center mt-4 mt-lg-0 d-none d-lg-block slide-in-right">
-            <img src="{{ asset('images/hiu/calm.svg') }}" alt="Ilustrasi Soal" class="img-fluid">
+            <img src="{{ asset('images/hiu/calm.png') }}" alt="Ilustrasi Soal" class="img-fluid">
         </div>
     </div>
 @endsection

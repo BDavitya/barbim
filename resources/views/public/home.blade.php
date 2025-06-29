@@ -1,9 +1,9 @@
 @extends('layout.public')
 
 @section('content')
-    <img src="{{ asset('images/brush.svg') }}" alt="Brush Top Left" class="position-absolute rotate-image"
+    <img src="{{ asset('images/brush.png') }}" alt="Brush Top Left" class="position-absolute rotate-image"
         style="top: -50px; left: -60px; z-index: 0; max-width: 300px; pointer-events: none;">
-    <img src="{{ asset('images/brush.svg') }}" alt="Brush Bottom Right" class="position-absolute rotate-image"
+    <img src="{{ asset('images/brush.png') }}" alt="Brush Bottom Right" class="position-absolute rotate-image"
         style="bottom: -50px; right: -60px; z-index: 0; max-width: 300px; pointer-events: none;">
     <div class="position-relative p-4 p-md-5 text-center text-muted bg-body rounded-5" style="border:#B7D7E8 1px dashed;">
         <h1 class="text-body-emphasis display-4 fw-semibold">

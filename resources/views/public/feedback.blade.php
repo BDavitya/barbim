@@ -25,7 +25,7 @@
                             <label>
                                 <input type="radio" name="likert" value="{{ $value }}" class="likert-radio" required>
                                 <div class="likert-option shadow-sm">
-                                    <img src="{{ asset('images/hiu/' . $label[1] . '.svg') }}" alt="Pilihan {{ $value }}">
+                                    <img src="{{ asset('images/hiu/' . $label[1] . '.png') }}" alt="Pilihan {{ $value }}">
                                     <div class="likert-label">{{ $label[0] }}</div>
                                 </div>
                             </label>

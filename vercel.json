@@ -1,8 +1,10 @@
 {
     "version": 2,
     "regions": ["sin1"],
-    "api/index.php": {
-        "runtime": "vercel-php@0.7.1"
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.1"
+        }
     },
     "routes": [
         {

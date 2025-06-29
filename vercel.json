@@ -12,7 +12,7 @@
             "dest": "/api/index.php"
         }
     ],
-    "installCommand": "php -r \"copy('https://getcomposer.org/installer', 'composer-setup.php');\" && php composer-setup.php --install-dir=/usr/local/bin --filename=composer && php -r \"unlink('composer-setup.php');\" && composer install --no-dev",
+    "installCommand": "",
     "buildCommand": "php artisan optimize:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache",
     "outputDirectory": "public"
 }

@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "bash scripts/setup-db.sh && composer install --no-dev --optimize-autoloader && php artisan key:generate --force && php artisan migrate --force"
     },
     "devDependencies": {
         "axios": "^1.6.4",
